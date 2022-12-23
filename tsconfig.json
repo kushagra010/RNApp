@@ -1,0 +1,38 @@
+// prettier-ignore
+{
+  "extends": "@tsconfig/react-native/tsconfig.json", /* Recommended React Native TSConfig base */
+  "compilerOptions": {
+    "jsx": "react",
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": [
+        "src/app/*"
+      ],
+      "@components/*": [
+        "src/app/components/*"
+      ],
+      "@constants/*": [
+        "src/app/constants/*"
+      ],
+      "@hooks/*": [
+        "src/app/hooks/*"
+      ],
+      "@navigation/*": [
+        "src/app/navigation/*"
+      ],
+      "@screens/*": [
+        "src/app/screens/*"
+      ],
+      "@shared/*": [
+        "src/app/shared/*"
+      ],
+      "@utils/*": [
+        "src/app/utils/*"
+      ],
+      "@api/*": [
+        "src/app/api/*"
+      ]
+    }
+  }
+}
